@@ -11,12 +11,12 @@ const LoginPage = ({id,classname,handleClose}) => {
     age: '',
     gender: '',
   });
-  const fetchSingleAPI = ()=>{
+  const fetchSingleAPI = (id)=>{
     return fetch(`http://localhost:8000/classes/${id}`).then(res=>res.json()).then(res=> setSingleData(res))
 }
 useEffect(()=>{
-    fetchSingleAPI()
-},[])
+    fetchSingleAPI(id)
+},[id])
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -34,7 +34,7 @@ useEffect(()=>{
         body: JSON.stringify(data),
       });
   
-      const result = await response.json();
+    //   const result = await response.json();
       toast.success("user suceesfully enrolled")
       handleClose()
     } catch (error) {
@@ -43,12 +43,12 @@ useEffect(()=>{
   }
   const handleSubmit = (e) => {
     e.preventDefault();
-    const arr = [...singleData?.users,formData]
-    const flag = singleData?.users.filter(el=>el.email == formData.email)
+    // const arr = [...singleData?.users,formData]
+    const flag = singleData?.users.filter(el=>el.email === formData.email)
     if(flag.length > 0){
     toast.error("user already enrolled with this email")
     }
-    else if(flag.length == 0){
+    else if(flag.length === 0){
     const dataOb={...singleData,users:[...singleData?.users,formData]}
     postJSON(dataOb)
     // git@github.com:lakeerawat/wtf-assesment.git

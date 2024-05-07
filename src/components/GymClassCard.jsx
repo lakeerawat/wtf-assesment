@@ -1,17 +1,14 @@
 import React from 'react';
 import '../style/GymClassCard.css'; // Import CSS for styling
-import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Dialog, { DialogProps } from '@mui/material/Dialog';
+import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import LoginPage from './login';
 
 const GymClassCard = ({id,classname, instructor,days, timing, duration, fee, image }) => {
   const [open, setOpen] = React.useState(false);
-  const [fullWidth, setFullWidth] = React.useState(true);
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -39,7 +36,7 @@ const GymClassCard = ({id,classname, instructor,days, timing, duration, fee, ima
       </div>
       <button onClick={handleClickOpen}>Sign Up</button>
       <Dialog
-        fullWidth={fullWidth}
+        fullWidth={true}
         open={open}
         onClose={handleClose}
       >
