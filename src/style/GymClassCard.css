@@ -1,0 +1,60 @@
+.calenderDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.calenderDiv>.rdrDateRangePickerWrapper{
+  border: 1px solid gainsboro;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.calenderDiv>.rdrDateRangePickerWrapper>.rdrDefinedRangesWrapper>.rdrStaticRanges>button{
+  color: black;
+}
+.gym-class-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 20rem;
+  }
+  
+  .class-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .class-details {
+    padding: 20px;
+  }
+  
+  .class-name {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .instructor,
+  .timing,
+  .duration,
+  .price {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #666;
+  }
+
+.days{
+  display: flex;
+  color: #666;
+  gap: 10px;
+}
+.day{
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}

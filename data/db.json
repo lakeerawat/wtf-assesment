@@ -1,0 +1,202 @@
+{
+  "classes": [
+    {
+      "id": "1",
+      "title": "Yoga",
+      "instructor": "John Doe",
+      "days": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ],
+      "timing": "6:00 PM",
+      "duration": "1 hour",
+      "fee": "$60",
+      "coverImage": "https://t3.ftcdn.net/jpg/04/87/48/66/240_F_487486623_CatNgUbulZ6rOpENckeTzRfY7IzrqOKd.jpg",
+      "users": [
+        {
+          "name": "Lakee Rawat",
+          "email": "lakee.bhumca18@gmail.com",
+          "age": "28",
+          "gender": "male"
+        },
+        {
+          "name": "Lakee Rawat",
+          "email": "lakee.bhumca18@gmail.com",
+          "age": "15",
+          "gender": "male"
+        },
+        {
+          "name": "Lakee Rawat",
+          "email": "lakee.bhumca18@gmail.com",
+          "age": "9",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Zumba",
+      "instructor": "Alice P",
+      "days": [
+        "Tue",
+        "Thu"
+      ],
+      "timing": "6:00 PM",
+      "duration": "1 hour",
+      "fee": "$50",
+      "coverImage": "https://img.freepik.com/free-vector/flat-hand-drawn-dance-fitness-class-illustration_52683-56671.jpg",
+      "users": [
+        {
+          "name": "Lakee Rawat",
+          "email": "lakee.bhumca18@gmail.com",
+          "age": "14",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Pilates",
+      "instructor": "Emily Smith",
+      "days": [
+        "Mon",
+        "Wed"
+      ],
+      "timing": "7:00 AM",
+      "duration": "1.5 hours",
+      "fee": "$70",
+      "coverImage": "https://prod-ne-cdn-media.puregym.com/media/815715/pilates-vs-yoga.png?quality=80&width=992",
+      "users": [
+        {
+          "name": "Lakee Rawat",
+          "email": "lakee.bhumca18@gmail.com",
+          "age": "15",
+          "gender": "male"
+        },
+        {
+          "name": "shiva",
+          "email": "shiv@gmail.com",
+          "age": "17",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Spinning",
+      "instructor": "David Johnson",
+      "days": [
+        "Tue",
+        "Fri"
+      ],
+      "timing": "5:30 PM",
+      "duration": "45 minutes",
+      "fee": "$55",
+      "coverImage": "https://ymcaharrisburg.org/wp-content/uploads/2023/07/people-doing-indoor-cycling-scaled-e1689558487445-1024x589.jpg",
+      "users": []
+    },
+    {
+      "id": "5",
+      "title": "Bootcamp",
+      "instructor": "Sarah Lee",
+      "days": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ],
+      "timing": "7:00 AM",
+      "duration": "1 hour",
+      "fee": "$65",
+      "coverImage": "https://classpass.com/blog/wp-content/uploads/2019/08/shutterstock_649621264.jpg",
+      "users": []
+    },
+    {
+      "id": "6",
+      "title": "CrossFit",
+      "instructor": "Michael Brown",
+      "days": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ],
+      "timing": "6:30 PM",
+      "duration": "1 hour",
+      "fee": "$75",
+      "coverImage": "https://m.media-amazon.com/images/I/51Ni5gEQiTL._AC_UF1000,1000_QL80_.jpg",
+      "users": []
+    },
+    {
+      "id": "7",
+      "title": "Kickboxing",
+      "instructor": "Emma Williams",
+      "days": [
+        "Tue",
+        "Thu"
+      ],
+      "timing": "7:00 PM",
+      "duration": "1 hour",
+      "fee": "$55",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVgLAv4IKGGY_-cSMteykFGDhKf0UN7Cm3d_9xXTrKbQ&s",
+      "users": []
+    },
+    {
+      "id": "8",
+      "title": "Barre",
+      "instructor": "Daniel White",
+      "days": [
+        "Mon",
+        "Wed"
+      ],
+      "timing": "5:00 PM",
+      "duration": "1 hour",
+      "fee": "$65",
+      "coverImage": "https://media.istockphoto.com/id/1171254808/photo/woman-doing-dance-pose-while-holding-barre-at-gym.jpg?s=612x612&w=0&k=20&c=8nvg6LbKSmJ1mDM-LORbCt0WBuPUo5IyXHXlighw21A=",
+      "users": []
+    },
+    {
+      "id": "9",
+      "title": "Tai Chi",
+      "instructor": "Sophia Martinez",
+      "days": [
+        "Tue",
+        "Thu"
+      ],
+      "timing": "9:00 AM",
+      "duration": "1 hour",
+      "fee": "$60",
+      "coverImage": "https://hips.hearstapps.com/hmg-prod/images/woman-standing-poised-practicing-wu-tai-chi-on-the-royalty-free-image-1630278465.jpg?crop=0.669xw:1.00xh;0.0678xw,0&resize=640:*",
+      "users": []
+    },
+    {
+      "id": "10",
+      "title": "HIIT",
+      "instructor": "William Taylor",
+      "days": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ],
+      "timing": "6:00 AM",
+      "duration": "45 minutes",
+      "fee": "$70",
+      "coverImage": "https://media.self.com/photos/5c10255b2f04d8625a2fbb64/master/pass/women-with-dumbbells.jpg",
+      "users": []
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
